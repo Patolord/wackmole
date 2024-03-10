@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  user-select: none;
+}
+
+.grid {
+  display: grid;
+  width: 500px;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.3rem;
+  border: 5px solid #000000;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 5.0rem;
+
+}
+
+
+img {
+  width: 100%;
+}
